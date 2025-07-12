@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Math Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Math Quiz Game</h1>
+    <div id="question">Loading...</div>
+
+    <input type="number" id="answer" placeholder="Your Answer">
+    <button onclick="checkAnswer()">Submit</button>
+
+    <div class="info">
+      <p>Score: <span id="score">0</span></p>
+      <p>Question : <span id="qnum">1</span></p>
+    </div>
+
+    <button onclick="restartGame()" class="reset-btn"> Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
